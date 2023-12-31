@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIME ANIME - Your Source for Anime News</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #151d2b;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* Existing styles remain unchanged */
+
+        section.top-10 {
+            padding: 40px;
+            text-align: center;
+            background-color: #102040;
+            color: #fff;
+        }
+
+        .top-10-header {
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .top-10-anime-card {
+            border: 2px solid #0d1730;
+            border-radius: 15px;
+            margin: 20px;
+            padding: 30px;
+            background-color: rgba(164, 194, 244, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+            width: 300px;
+        }
+
+        .top-10-anime-card:hover {
+            transform: scale(1.05);
+        }
+
+        .top-10-anime-card img {
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .top-10-anime-title {
+            font-size: 1.5em;
+            margin: 10px 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .top-10-anime-description {
+            font-size: 1em;
+            color: #ccc;
+        }
+
+        .explore-button {
+            color: #fff;
+            text-decoration: none;
+            margin-top: 10px;
+            padding: 8px 15px;
+            border-radius: 5px;
+            background-color: #6a8cb8;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .explore-button:hover {
+            background-color: #455a7f;
+        }
+
+        @media (max-width: 1000px) {
+            section.top-10 {
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+
+            .top-10-anime-card {
+                width: calc(50% - 40px);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .top-10-anime-card {
+                width: calc(100% - 40px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Existing HTML content -->
+
+    <section class="top-10">
+        <h2 class="top-10-header">Top 10 Anime</h2>
+
+        <div class="top-10-anime-card" onclick="showAnimeDetails('Attack on Titan', 'In a world where humanity resides within enormous walled cities to protect themselves from Titans, gigantic humanoid creatures, the story follows Eren Yeager and his friends who join the military to fight the Titans after their hometown is invaded and Eren\'s mother is eaten.')">
+            <h3 class="top-10-anime-title">Attack on Titan</h3>
+            <img src="attack_on_titan.jpg" alt="Attack on Titan">
+            <p class="top-10-anime-description">In a world where humanity resides within enormous walled cities to protect themselves from Titans, gigantic humanoid creatures, the story follows Eren Yeager and his friends who join the military to fight the Titans after their hometown is invaded and Eren's mother is eaten.</p>
+            <a href="#" class="explore-button">Explore</a>
+        </div>
+
+        <div class="top-10-anime-card" onclick="showAnimeDetails('My Hero Academia', 'In a world where individuals with superpowers known as "Quirks" are the norm, a boy without them is determined to enroll in a prestigious hero academy and learn what it really means to be a hero.')">
+            <h3 class="top-10-anime-title">My Hero Academia</h3>
+            <img src="my_hero_academia.jpg" alt="My Hero Academia">
+            <p class="top-10-anime-description">In a world where individuals with superpowers known as "Quirks" are the norm, a boy without them is determined to enroll in a prestigious hero academy and learn what it really means to be a hero.</p>
+            <a href="#" class="explore-button">Explore</a>
+        </div>
+
+        <!-- Add more anime entries following the structure above -->
+
+    </section>
+
+    <!-- Existing HTML content -->
+
+    <footer>
+        &copy; All rights reserved.
+    </footer>
+
+</body>
+</html>
