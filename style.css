@@ -107,7 +107,8 @@
 
 li { list-style: none; }
 
-a { text-decoration: none; }
+a { text-decoration: none;
+color : black;}
 
 a,
 img,
@@ -375,7 +376,7 @@ body {
 .hero-text {
   color: var(--white);
   font-size: var(--fs-8);
-  margin-block-end: 30px;
+  margin-block-end: 20px;
 }
 
 
@@ -1048,7 +1049,7 @@ body {
   .footer-brand { grid-column: auto; }
 
 }
-.container {
+.containerx {
             max-width: 800px;
             width: 100%;
             padding: 20px;
@@ -1058,7 +1059,7 @@ body {
             overflow: hidden;
         }
 
-        .article-card {
+        .article-cardx {
             margin-bottom: 20px;
             padding: 20px;
             border: 1px solid #ddd;
@@ -1066,30 +1067,30 @@ body {
             transition: box-shadow 0.3s ease-in-out;
         }
 
-        .article-card:hover {
+        .article-cardx:hover {
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
         }
 
-        .article-card h2 {
+        .article-cardx h2 {
             color: #333;
         }
 
-        .article-card p {
+        .article-cardx p {
             color: #666;
         }
 
-        .article-card img {
+        .article-cardx img {
             max-width: 100%;
             height: auto;
             border-radius: 8px;
         }
 
-        .glow {
+        .glowx {
             position: relative;
             display: inline-block;
         }
 
-        .glow::before {
+        .glowx::before {
             content: '';
             position: absolute;
             width: 100%;
@@ -1112,3 +1113,4 @@ body {
                 transform: scale(1.1);
             }
         }
+
