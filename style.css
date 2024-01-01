@@ -173,7 +173,7 @@ body {
   padding: 12px 35px;
   font-size: var(--fs-8);
   font-weight: var(--fw-500);
-  border-radius: 15pxpx;
+  border-radius: 15px;
   transition: var(--transition-2);
 }
 
