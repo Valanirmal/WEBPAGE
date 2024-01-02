@@ -1114,5 +1114,20 @@ body {
                 transform: scale(1.1);
             }
         }
+.article {
+            background-color: #fff; /* White background color */
+            padding: 20px;
+            margin: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Slightly increased box shadow */
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            width: calc(33.33% - 30px); /* Responsive width for larger screens */
+            text-align: left;
+        }
+
+        .article:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Enhance box shadow on hover */
+        }
 
 
