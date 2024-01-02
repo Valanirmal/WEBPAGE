@@ -1114,7 +1114,7 @@ body {
                 transform: scale(1.1);
             }
         }
-.article {
+.articley {
             background-color: #fff; /* White background color */
             padding: 20px;
             margin: 15px;
@@ -1125,7 +1125,7 @@ body {
             text-align: left;
         }
 
-        .article:hover {
+        .articley:hover {
             transform: translateY(-8px);
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Enhance box shadow on hover */
         }
