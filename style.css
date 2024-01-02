@@ -1123,7 +1123,7 @@ body {
     margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #ddd;
-    height: 200px; /* Fixed height */
+    height: 20px; /* Fixed height */
 }
 
 .articley:hover {
