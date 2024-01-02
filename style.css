@@ -1123,13 +1123,15 @@ body {
     margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #ddd;
-    height: 20px; /* Fixed height */
+    max-height: 300px; /* Set a maximum height for the article */
+    overflow: hidden; /* Hide overflow content */
 }
 
 .articley:hover {
     transform: translateY(-8px);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Enhance box shadow on hover */
 }
+
 
 
 
