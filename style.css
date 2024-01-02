@@ -1123,7 +1123,7 @@ body {
     margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #ddd;
-    max-height: 20px; /* Set a maximum height for the article */
+    max-height: 100px; /* Set a maximum height for the article */
     overflow: hidden; /* Hide overflow content */
 }
 
