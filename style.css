@@ -1,18 +1,3 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -1131,7 +1116,3 @@ body {
     transform: translateY(-8px);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Enhance box shadow on hover */
 }
-
-
-
-
